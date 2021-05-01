@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InfectadosAPI</name>
+    </assembly>
+    <members>
+        <member name="M:InfectadosAPI.Controllers.InfectadoController.InserirInfectado(InfectadosAPI.Models.InfectadoDtoInput)">
+            <summary>
+            Este serviço permite inserir um infectado.
+            </summary>
+            <param name="dto">Model do Infectado</param>
+            <returns>Retorna status OK e dados do infectado</returns>
+        </member>
+        <member name="M:InfectadosAPI.Controllers.InfectadoController.AtualizarInfectado(System.String,InfectadosAPI.Models.InfectadoDtoInput)">
+            <summary>
+            Este serviço permite atualizar as informações de um infectado registrado
+            </summary>
+            <param name="id">Identificador do Infectado</param>
+            <param name="dto">Model do Infectado</param>
+            <returns>Retorna status OK e dados do infectado</returns>
+        </member>
+        <member name="M:InfectadosAPI.Controllers.InfectadoController.ExcluirInfectado(System.String)">
+            <summary>
+            Este serviço permite excluir um infectado registrado
+            </summary>
+            <param name="id">Identificador do Infectado</param>
+            <returns>Mensagem de sucesso</returns>
+        </member>
+        <member name="M:InfectadosAPI.Controllers.InfectadoController.ObterInfectados">
+            <summary>
+            Este serviço permite recuperar as informações de todos os infectados registrados
+            </summary>
+            <returns>Retorna status OK e lista de infectados</returns>
+        </member>
+        <member name="M:InfectadosAPI.Controllers.UsuarioController.AutenticarUsuario(InfectadosAPI.Models.UsuarioDtoInput)">
+            <summary>
+            Este serviço permite autenticar um usuário cadastrado.
+            </summary>
+            <param name="dto">Model do Usuário (Entrada)</param>
+            <returns>Retorna status OK, usuário e token em caso de sucesso</returns>
+        </member>
+        <member name="M:InfectadosAPI.Controllers.UsuarioController.InserirUsuario(InfectadosAPI.Models.UsuarioDtoInput)">
+            <summary>
+            Este serviço permite inserir um usuário.
+            </summary>
+            <param name="dto">Model do Usuário (Entrada)</param>
+            <returns>Retorna status OK e mensagem de sucesso</returns>
+        </member>
+    </members>
+</doc>
